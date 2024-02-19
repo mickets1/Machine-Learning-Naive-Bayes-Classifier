@@ -1,0 +1,28 @@
+{
+  "name": "a4-machine-learning",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:2dv515/student/ma225gn/a4-machine-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.10",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^46.10.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "eslintConfig": {
+    "extends": "@lnu"
+  }
+}
